@@ -49,6 +49,9 @@
 >!w::Send {U+00E5}  ; RAlt + w   ==>   å = U+00E5
 >!+W::Send {U+00C5}  ; RAlt + W   ==>   Å = U+00C5
 
+; Acented letters
+>!e::Send {U+00E9}  ; RAlt + e   ==>   é = U+00E9
+>!+E::Send {U+00C9}  ; RAlt + E   ==>   É = U+00C9
 
 SetDefaultKeyboard(LocaleID){
 	Global
