@@ -53,6 +53,9 @@
 >!e::Send {U+00E9}  ; RAlt + e   ==>   é = U+00E9
 >!+E::Send {U+00C9}  ; RAlt + E   ==>   É = U+00C9
 
+RAlt::return
+RAlt & LCtrl::return
+
 SetDefaultKeyboard(LocaleID){
 	Global
 	SPI_SETDEFAULTINPUTLANG := 0x005A
